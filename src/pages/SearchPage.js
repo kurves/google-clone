@@ -3,7 +3,6 @@ import './SearchPage.css';
 import Search from './Search'
 import {useStateValue} from '../components/StateProvider'
 import useGoogleSearch from '../components/useGoogleSearch'
-import Response from '../components/response'
 import {Link} from 'react-router-dom';
  import {FaSearch,
 		FaRegCaretSquareRight,
@@ -15,13 +14,8 @@ import {Link} from 'react-router-dom';
 
 function SearchPage() {
     const [{term},dispatch] =useStateValue();
-    
-    
-    const{data}=useGoogleSearch(term);
-    
-    //const data =Response;
-
-    console.log(data)
+     const{data}=useGoogleSearch(term);
+  
     return (
 			<div className="searchPage">
 				<div className="searchPage__header">
@@ -35,8 +29,7 @@ function SearchPage() {
 
 					<div className="searchPage__headerBody">
 						<Search hidden />
-
-						<div className="searchPage__options">
+<div className="searchPage__options">
 							<div className="searchPage__option">
 								<FaSearch />
 								<Link to="/all">All</Link>
