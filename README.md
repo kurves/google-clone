@@ -36,7 +36,7 @@ I also used Google's firebase to host the google-clone.
 Check out the completed google clone and give it a try.
 All feedback is welcome.
 
-## App Access
+## View app
 
 [google-clone/kurves](https://kurves-project.web.app/).
 
