@@ -29,6 +29,9 @@ it was great practice.
 
 ### Resources
 
+**Firebase**
+- You'll need a firebase account, register and login to you firebase account
+
 I also used Google's firebase to host the google-clone.
 Check out the completed google clone and give it a try.
 All feedback is welcome.
